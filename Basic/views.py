@@ -9,3 +9,8 @@ def about(request):
 
 def bootstrap(request):
     return render(request,'bootstrap.html')   
+
+def register(request):
+    a=5
+    b='example'
+    return render(request,'register.html', {'test':a, 'test1':b})     
